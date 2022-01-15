@@ -1,0 +1,5 @@
+build project:
+  image: node:15
+  scripts:
+    - yarn install
+    - yarn build
